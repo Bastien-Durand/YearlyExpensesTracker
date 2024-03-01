@@ -4,6 +4,22 @@
   gap: 1rem;
   margin-bottom: 1rem;
   text-align: left;
+  color: #ffffff;
+}
+
+::placeholder {
+  color: #fca311;
+  opacity: 1; /* Firefox */
+}
+
+input,
+select,
+textarea {
+  color: #fca311;
+}
+
+input[type="date"]:valid {
+  border: 2px solid green;
 }
 
 .new-expense__control label {
